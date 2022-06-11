@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap&subset=cyrillic">
+  </head>
+  <body>
+
+    <div class="content">
+      <div class="header">
+        <div class="container">
+          <div class="header-inside d-flex justify-content-between align-items-center">
+            <div class="header-logo">
+              <img class="header-logo-image" src="<%=require('/src/assets/images/logo.svg')%>" alt="wedoedu">
+            </div>
+            <nav class="header-nav">
+              <ul class="header-nav-list">
+                <li class="header-nav-item">
+                  <a class="header-nav-link" href="#">Для кого</a>
+                </li>
+                <li class="header-nav-item">
+                  <a class="header-nav-link" href="#">Программа</a>
+                </li>
+                <li class="header-nav-item">
+                  <a class="header-nav-link" href="#">Спикеры</a>
+                </li>
+                <li class="header-nav-item">
+                  <a class="header-nav-link" href="#">Стоимость</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header-interaction">
+              <button class="header-interaction-button button">Хочу учиться</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="container">
+          <div class="main-inside grid">
+            <div class="main-text g-col-12 g-col-lg-6">
+              <h1 class="main-text-title">
+                Научитесь упаковывать бизнес так, чтобы он работал на вас
+              </h1>
+              <p class="main-text-description">
+                Дальнейший успех бренда зависит от прочности его фундамента, то есть, от его упаковки. Это и дизайн, и тональность коммуникации, и веб-дизайн, и копирайтинг, и брендинг. Вы сможете освоить все эти навыки на нашем курсе «Упаковка бизнеса»
+              </p>
+              <div class="main-text-interaction d-flex">
+                <button class="main-text-start button">Хочу учиться</button>
+                <button class="main-text-video">
+                  <img
+                    class="main-text-video-play"
+                    src="<%=require('/src/assets/images/main-text-video-play.svg')%>"
+                    alt="play"
+                  />
+                  Смотреть видео
+                </button>
+              </div>
+              <div class="main-text-date d-flex">
+                <div class="main-text-date-item">
+                  <strong class="main-text-date-title">30 май</strong>
+                  <span class="main-text-date-subtitle">Старт курса</span>
+                </div>
+                <div class="main-text-date-item">
+                  <strong class="main-text-date-title">Online</strong>
+                  <span class="main-text-date-subtitle">Формат обучения</span>
+                </div>
+                <div class="main-text-date-item">
+                  <strong class="main-text-date-title">2 месяца</strong>
+                  <span class="main-text-date-subtitle">Длительность</span>
+                </div>
+              </div>
+            </div>
+            <div class="main-timer g-col-12 g-col-lg-6">
+              <div class="main-timer-inside d-flex align-items-end">
+                <img class="main-timer-preview" src="<%=require('/src/assets/images/main-timer-preview.png')%>" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="suitable">
+        <div class="container">
+          <div class="suitable-background">
+            <div class="suitable-background-image-1"></div>
+            <div class="suitable-background-image-2"></div>
+          </div>
+          <div class="suitable-inside">
+              <div class="suitable-heading grid">
+                <div class="g-col-12 g-col-sm-6">
+                  <h1 class="suitable-heading-title title">Кому подойдет этот курс?</h1>
+                </div>
+              </div>
+              <div class="suitable-cards grid align-items-stretch">
+                <div class="suitable-cards-item g-col-12 g-col-sm-4">
+                  <div class="suitable-card">
+                    <div class="suitable-card-preview">
+                      <img
+                        class="suitable-card-preview-image"
+                        src="<%=require('/src/assets/images/suitable-card-preview-image-01.png')%>"
+                        alt="suitable"
+                      />
+                      <h2>01</h2>
+                    </div>
+                    <h2 class="suitable-card-title">Тем, кто хочет стать digital-специалистом</h2>
+                    <p class="suitable-card-description">
+                      Освоите навыки маркетолога, копирайтера, веб-дизайнера и бренд-менеджера. Узнаете все о слоях упаковки и настроите тональность коммуникации под вашу ЦА
+                    </p>
+                  </div>
+                </div>
+                <div class="suitable-cards-item g-col-12 g-col-sm-4">
+                  <div class="suitable-card">
+                    <div class="suitable-card-preview">
+                      <img
+                        class="suitable-card-preview-image"
+                        src="<%=require('/src/assets/images/suitable-card-preview-image-01.png')%>"
+                        alt="suitable"
+                      />
+                      <h2>02</h2>
+                    </div>
+                    <h2 class="suitable-card-title">Тем, кто интересуется бренд-менеджментом</h2>
+                    <p class="suitable-card-description">
+                      Узнаете об архетипах брендов, составите питч бренда и сделаете SWOT-анализ. Сможете правильно позиционировать ваш бренд
+                    </p>
+                  </div>
+                </div>
+                <div class="suitable-cards-item g-col-12 g-col-sm-4">
+                  <div class="suitable-card">
+                    <div class="suitable-card-preview">
+                      <img
+                        class="suitable-card-preview-image"
+                        src="<%=require('/src/assets/images/suitable-card-preview-image-01.png')%>"
+                        alt="suitable"
+                      />
+                      <h2>03</h2>
+                    </div>
+                    <h2 class="suitable-card-title">Собственникам бизнеса</h2>
+                    <p class="suitable-card-description">
+                      Проанализируете упаковку вашего бренда, узнаете о его сильных и слабых сторонах. Сможете укрепить позиционирование вашего бизнеса за счет создания сильного личного бренда
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="skills">
+        <div class="container">
+          <div class="skills-background">
+            <div class="skills-background-image-1"></div>
+            <div class="skills-background-image-2"></div>
+          </div>
+          <div class="skills-inside">
+            <div class="skills-heading">
+              <h1 class="skills-heading-title title">Чему вы научитесь?</h1>
+              <div class="skills-heading-description description">
+                Вас ждут видеоматериалы и практические задания. Вместе с другими участниками курса вы будете разрабатывать креативную концепцию рекламной кампании
+              </div>
+            </div>
+            <div class="skills-cards grid">
+              <div class="skills-cards-item g-col-12 g-col-sm-4">
+                <div class="skills-card">
+                  <div class="skills-card-inside">
+                    <h2 class="skills-card-title">Основы упаковки бизнеса</h2>
+                    <hr>
+                    <p class="skills-card-description description">
+                      Сможете создать смысловую карту. Узнаете о слоях упаковки и создании сильного личного бренда
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="skills-cards-item g-col-12 g-col-sm-4">
+                <div class="skills-card">
+                  <div class="skills-card-inside">
+                    <h2 class="skills-card-title">Навыкам веб-дизайнера</h2>
+                    <hr>
+                    <p class="skills-card-description description">
+                      Узнаете о структурировании сайта, прототипировании. Познакомитесь с UI-UX-дизайнами сайтов и научитесь верстать сайты
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="skills-cards-item g-col-12 g-col-sm-4">
+                <div class="skills-card">
+                  <div class="skills-card-inside">
+                    <h2 class="skills-card-title">Копирайтинг</h2>
+                    <hr>
+                    <p class="skills-card-description description">
+                      Изучите правила написания продающегося текста и узнаете об инструментах, которые могут помочь в его составлении
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="skills-cards-item g-col-12 g-col-sm-4">
+                <div class="skills-card">
+                  <div class="skills-card-inside">
+                    <h2 class="skills-card-title">Основы дизайна</h2>
+                    <hr>
+                    <p class="skills-card-description description">
+                      Познакомитесь с теорией цвета и шрифтами. Узнаете, как сформировать насмотренность, и сможете создать общую айдентику и фирменный стиль бренда
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="skills-cards-item g-col-12 g-col-sm-4">
+                <div class="skills-card">
+                  <div class="skills-card-inside">
+                    <h2 class="skills-card-title">Брендинг</h2>
+                    <hr>
+                    <p class="skills-card-description description">
+                      Сможете определить цель бренда, настроить тональность коммуникации и правильное позиционирование. Сделаете SWOT-анализ
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="skills-cards-item g-col-12 g-col-sm-4">
+                <div class="skills-card">
+                  <div class="skills-card-inside">
+                    <h2 class="skills-card-title">Работать с маркетинговой аналитикой</h2>
+                    <hr>
+                    <p class="skills-card-description description">
+                      Освоите аналитические инструменты на продвинутом уровне, сможете автоматизировать и визуализировать отчетность
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="call-to-action">
+        <div class="container">
+          <div class="call-to-action-inside">
+            <div class="call-to-action-inside-block">
+              <h2 class="call-to-action-inside-block-title">Записаться на курс <br> или получить бесплатную консультацию</h2>
+              <button class="call-to-action-inside-block-button">Хочу учиться</button>
+            </div>
+            <div class="call-to-action-inside-image">
+              <img src="<%=require('/src/assets/images/virtual-reality-illustration.png')%>" alt="call-to-action">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="program">
+        <div class="program-inside">
+          <div class="container">
+            <div class="program-heading grid">
+              <div class="g-col-12 g-col-sm-5 g-col-lg-6">
+                <h1 class="program-heading-title title">Программа<br> обучения</h1>
+              </div>
+              <div class="g-col-12 g-col-sm-7 g-col-lg-6">
+                <p class="program-heading-description description">
+                  Вас ждут видеоматериалы и практические задания. Вместе с другими участниками курса вы будете разрабатывать креативную концепцию рекламной кампании
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="program-accordion">
+            <div class="program-accordion-item ac">
+              <div class="container">
+                <div class="program-accordion-header ac-header ac-trigger">
+                  <h2 class="program-accordion-title">Введение</h2>
+                </div>
+                <div class="program-accordion-body ac-panel">
+                  <div class="program-accordion-content">
+                    <p class="description">
+                      Lorem Ipsum has been the industry's standard dummy text ever
+                      since the 1500s, when an unknown printer took a galley of
+                      type and scrambled it to make a type specimen book.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="program-accordion-item ac">
+              <div class="container">
+                <div class="program-accordion-header ac-header ac-trigger">
+                  <h2 class="program-accordion-title">Основы упаковки</h2>
+                </div>
+                <div class="program-accordion-body ac-panel">
+                  <div class="program-accordion-content">
+                    <p class="description">
+                      Lorem Ipsum has been the industry's standard dummy text ever
+                      since the 1500s, when an unknown printer took a galley of
+                      type and scrambled it to make a type specimen book.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="program-accordion-item ac">
+              <div class="container">
+                <div class="program-accordion-header ac-header ac-trigger">
+                  <h2 class="program-accordion-title">Копирайтинг</h2>
+                </div>
+                <div class="program-accordion-body ac-panel">
+                  <div class="program-accordion-content">
+                    <p class="description">
+                      Lorem Ipsum has been the industry's standard dummy text ever
+                      since the 1500s, when an unknown printer took a galley of
+                      type and scrambled it to make a type specimen book.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="program-accordion-item ac">
+              <div class="container">
+                <div class="program-accordion-header ac-header ac-trigger">
+                  <h2 class="program-accordion-title">Веб-дизайн</h2>
+                </div>
+                <div class="program-accordion-body ac-panel">
+                  <div class="program-accordion-content">
+                    <p class="description">
+                      Lorem Ipsum has been the industry's standard dummy text ever
+                      since the 1500s, when an unknown printer took a galley of
+                      type and scrambled it to make a type specimen book.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="program-accordion-item ac">
+              <div class="container">
+                <div class="program-accordion-header ac-header ac-trigger">
+                  <h2 class="program-accordion-title">Дизайн</h2>
+                </div>
+                <div class="program-accordion-body ac-panel">
+                  <div class="program-accordion-content">
+                    <p class="description">
+                      Lorem Ipsum has been the industry's standard dummy text ever
+                      since the 1500s, when an unknown printer took a galley of
+                      type and scrambled it to make a type specimen book.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="program-accordion-item ac">
+              <div class="container">
+                <div class="program-accordion-header ac-header ac-trigger">
+                  <h2 class="program-accordion-title">Брендинг</h2>
+                </div>
+                <div class="program-accordion-body ac-panel">
+                  <div class="program-accordion-content">
+                    <p class="description">
+                      Lorem Ipsum has been the industry's standard dummy text ever
+                      since the 1500s, when an unknown printer took a galley of
+                      type and scrambled it to make a type specimen book.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="program-accordion-item ac">
+              <div class="container">
+                <div class="program-accordion-header ac-header ac-trigger">
+                  <h2 class="program-accordion-title">Аналитика для начинающих</h2>
+                </div>
+                <div class="program-accordion-body ac-panel">
+                  <div class="program-accordion-content">
+                    <p class="description">
+                      Lorem Ipsum has been the industry's standard dummy text ever
+                      since the 1500s, when an unknown printer took a galley of
+                      type and scrambled it to make a type specimen book.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="shop">
+        <div class="container">
+          <div class="shop-inside">
+            <div class="shop-heading grid">
+              <div class="g-col-12 g-col-sm-4 g-col-lg-6">
+                <h1 class="shop-heading-title title">Магазин</h1>
+              </div>
+              <div class="g-col-12 g-col-sm-8 g-col-lg-6">
+                <p class="shop-heading-description description">
+                  Вас ждут видеоматериалы и практические задания. Вместе с другими участниками курса вы будете разрабатывать креативную концепцию рекламной кампании.
+                </p>
+              </div>
+            </div>
+            <div class="shop-cards grid">
+              <div class="shop-cards-item g-col-12 g-col-sm-6 g-col-lg-3">
+                <div class="shop-card">
+                  <div class="shop-card-preview">
+                    <img class="shop-card-preview-image" src="<%=require('/src/assets/images/shop-card-preview.png')%>" alt="preview"/>
+                  </div>
+                  <h2 class="shop-card-title">
+                    <span class="shop-card-title-name">MacBook Air 13</span>
+                    <span class="shop-card-title-price">$15</span>
+                  </h2>
+                </div>
+              </div>
+              <div class="shop-cards-item g-col-12 g-col-sm-6 g-col-lg-3">
+                <div class="shop-card">
+                  <div class="shop-card-preview">
+                    <img class="shop-card-preview-image" src="<%=require('/src/assets/images/shop-card-preview.png')%>" alt="preview"/>
+                  </div>
+                  <h2 class="shop-card-title">
+                    <span class="shop-card-title-name">MacBook Air 13</span>
+                    <span class="shop-card-title-price">$15</span>
+                  </h2>
+                </div>
+              </div>
+              <div class="shop-cards-item g-col-12 g-col-sm-6 g-col-lg-3">
+                <div class="shop-card">
+                  <div class="shop-card-preview">
+                    <img class="shop-card-preview-image" src="<%=require('/src/assets/images/shop-card-preview.png')%>" alt="preview"/>
+                  </div>
+                  <h2 class="shop-card-title">
+                    <span class="shop-card-title-name">MacBook Air 13</span>
+                    <span class="shop-card-title-price">$15</span>
+                  </h2>
+                </div>
+              </div>
+              <div class="shop-cards-item g-col-12 g-col-sm-6 g-col-lg-3">
+                <div class="shop-card">
+                  <div class="shop-card-preview">
+                    <img class="shop-card-preview-image" src="<%=require('/src/assets/images/shop-card-preview.png')%>" alt="preview"/>
+                  </div>
+                  <h2 class="shop-card-title">
+                    <span class="shop-card-title-name">MacBook Air 13</span>
+                    <span class="shop-card-title-price">$15</span>
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="shop-more d-flex justify-content-center">
+              <button class="shop-more-button button">
+                <span class="shop-more-button-text">Перейти в магазин</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="speakers">
+        <div class="container">
+          <div class="speakers-inside">
+            <h1 class="speakers-title title">Вас будут обучать топовые эксперты</h1>
+            <div class="speakers-teacher d-flex flex-column align-items-center">
+              <img src="<%=require('/src/assets/images/speakers-teacher.png')%>" alt="speakers-teacher"/>
+              <div class="speakers-teacher-text d-flex flex-column align-items-center">
+                <h3>Диана Тажимова</h3>
+                <p>Ведущий специалист по упаковке бизнеса в стране. Опыт работы в маркетинге 5 лет</p>
+                <img src="<%=require('/src/assets/images/speakers-teacher-bg.png')%>" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="resume">
+        <div class="container">
+          <div class="resume-inside">
+            <div class="resume-heading grid">
+              <div class="g-col-12 g-col-sm-6">
+                <h1 class="resume-heading-title title">Ваше резюме после<br> прохождения курса</h1>
+              </div>
+              <div class="g-col-12 g-col-sm-6">
+                <p class="resume-heading-description description">
+                  Wedo Education подтвердит, что вы прошли курс, и станет
+                  дополнительным аргументом при устройстве на работу.
+                </p>
+              </div>
+            </div>
+            <div class="resume-example">
+              <img class="resume-example-border" src="<%=require('/src/assets/images/resume-example-border.svg')%>" alt="border"/>
+              <div class="resume-example-head">
+                <img class="resume-example-avatar" src="<%=require('/src/assets/images/resume-example-avatar.svg')%>" alt="avatar" />
+                <div class="resume-example-info d-flex justify-content-between">
+                  <div class="resume-example-position">
+                    <span class="resume-example-position-suptitle">Должность</span>
+                    <h2 class="resume-example-title">Проектный менеджер</h2>
+                  </div>
+                  <div class="resume-example-wages">
+                    <span class="resume-example-wages-suptitle">Зарплата от</span>
+                    <h2 class="resume-example-title">300 000тг</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="resume-example-skills">
+                <h2 class="resume-example-title title">Ключевые навыки</h2>
+                <ul class="resume-example-list">
+                  <li class="resume-example-list-item">умею составлять концепцию и финансовую модель проекта</li>
+                  <li class="resume-example-list-item">определяю цели и задачи проекта</li>
+                  <li class="resume-example-list-item">могу составить систему оплаты команде</li>
+                  <li class="resume-example-list-item">владею навыком эффективного тайм-менеджмента</li>
+                </ul>
+              </div>
+              <img class="resume-example-logo" src="<%=require('/src/assets/images/logo.svg')%>" alt="wedoedu">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="request">
+        <div class="container">
+          <div class="request-inside grid">
+            <div class="request-info g-col-12 g-col-lg-6">
+              <img class="request-info-border" src="<%=require('/src/assets/images/request-info-border.svg')%>" alt="border"/>
+              <div class="request-info-heading d-flex justify-content-between align-items-center">
+                <h1 class="request-info-title title">Стоимость<br> курса</h1>
+                <div class="request-info-stat">
+                  <span class="request-info-stat-date">Старт курса: <strong>20 май</strong></span>
+                  <span class="request-info-stat-places">Осталось: <strong>4 места</strong></span>
+                </div>
+              </div>
+              <div class="request-info-content">
+                <h2 class="request-info-content-title">Рассрочка до 6 месяцев без переплат</h2>
+              </div>
+              <div class="request-info-bottom">
+                <h2 class="request-info-bottom-price">27 244₸/мес</h2>
+              </div>
+            </div>
+            <form class="request-form g-col-12 g-col-lg-6">
+              <h2 class="request-form-title">Заполните контактные данные</h2>
+              <p class="request-form-description">
+                Wedo Education подтвердит, что вы прошли курс, и<br>
+                станет дополнительным аргументом при устройстве<br>
+                на работу.
+              </p>
+              <input class="request-form-input" type="text" placeholder="Ваше имя" aria-label>
+              <input class="request-form-input" type="text" placeholder="Телефон" aria-label>
+              <input class="request-form-input" type="text" placeholder="Электронная почта" aria-label>
+              <button class="request-form-button" type="submit">Записаться на курс</button>
+              <p class="request-form-agreement">
+                Нажимая на кнопку, я соглашаюсь на
+                <a class="request-form-agreement-link" href="#">
+                  обработку персональных данных и с правилами пользования Платформой
+                </a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="container grid">
+          <div class="faq-inside g-col-12">
+            <h1 class="faq-title title">Часто задаваемые<br> вопросы</h1>
+            <div class="faq-accordion">
+              <div class="faq-accordion-item ac">
+                <div class="faq-accordion-header ac-header ac-trigger">
+                  <h2 class="faq-accordion-title">Я не творческий человек. Смогу ли я развить креативное<br> мышление за два месяца?</h2>
+                </div>
+                <div class="faq-accordion-body ac-panel">
+                  <div class="faq-accordion-content">
+                    <p class="description">
+                      Lorem Ipsum has been the industry's standard dummy text ever
+                      since the 1500s, when an unknown printer took a galley of
+                      type and scrambled it to make a type specimen book.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="faq-accordion-item ac">
+                <div class="faq-accordion-header ac-header ac-trigger">
+                  <h2 class="faq-accordion-title">Я не творческий человек. Смогу ли я развить креативное<br> мышление за два месяца?</h2>
+                </div>
+                <div class="faq-accordion-body ac-panel">
+                  <div class="faq-accordion-content">
+                    <p class="description">
+                      Lorem Ipsum has been the industry's standard dummy text ever
+                      since the 1500s, when an unknown printer took a galley of
+                      type and scrambled it to make a type specimen book.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="faq-accordion-item ac">
+                <div class="faq-accordion-header ac-header ac-trigger">
+                  <h2 class="faq-accordion-title">Я не творческий человек. Смогу ли я развить креативное<br> мышление за два месяца?</h2>
+                </div>
+                <div class="faq-accordion-body ac-panel">
+                  <div class="faq-accordion-content">
+                    <p class="description">
+                      Lorem Ipsum has been the industry's standard dummy text ever
+                      since the 1500s, when an unknown printer took a galley of
+                      type and scrambled it to make a type specimen book.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="faq-accordion-item ac">
+                <div class="faq-accordion-header ac-header ac-trigger">
+                  <h2 class="faq-accordion-title">Я не творческий человек. Смогу ли я развить креативное<br> мышление за два месяца?</h2>
+                </div>
+                <div class="faq-accordion-body ac-panel">
+                  <div class="faq-accordion-content">
+                    <p class="description">
+                      Lorem Ipsum has been the industry's standard dummy text ever
+                      since the 1500s, when an unknown printer took a galley of
+                      type and scrambled it to make a type specimen book.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="partners">
+        <div class="container">
+          <div class="partners-inside">
+            <h1 class="partners-title title">Наши партнеры</h1>
+            <div class="partners-list grid">
+              <div class="partners-list-item g-col-6 g-col-sm-4 g-col-lg-2">
+                <div class="partners-partner">
+                  <img class="partners-partner-logo" src="<%=require('/src/assets/images/partners-partner-logo.png')%>" alt="partner" />
+                </div>
+              </div>
+              <div class="partners-list-item g-col-6 g-col-4 g-col-lg-2">
+                <div class="partners-partner">
+                  <img class="partners-partner-logo" src="<%=require('/src/assets/images/partners-partner-logo.png')%>" alt="partner" />
+                </div>
+              </div>
+              <div class="partners-list-item g-col-6 g-col-4 g-col-lg-2">
+                <div class="partners-partner">
+                  <img class="partners-partner-logo" src="<%=require('/src/assets/images/partners-partner-logo.png')%>" alt="partner" />
+                </div>
+              </div>
+              <div class="partners-list-item g-col-6 g-col-4 g-col-lg-2">
+                <div class="partners-partner">
+                  <img class="partners-partner-logo" src="<%=require('/src/assets/images/partners-partner-logo.png')%>" alt="partner" />
+                </div>
+              </div>
+              <div class="partners-list-item g-col-6 g-col-4 g-col-lg-2">
+                <div class="partners-partner">
+                  <img class="partners-partner-logo" src="<%=require('/src/assets/images/partners-partner-logo.png')%>" alt="partner" />
+                </div>
+              </div>
+              <div class="partners-list-item g-col-6 g-col-4 g-col-lg-2">
+                <div class="partners-partner">
+                  <img class="partners-partner-logo" src="<%=require('/src/assets/images/partners-partner-logo.png')%>" alt="partner" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews">
+        <div class="container">
+          <div class="reviews-inside">
+            <div class="reviews-heading grid">
+              <div class="g-col-12 g-col-sm-5 g-col-lg-6">
+                <h1 class="reviews-heading-title title">Отзывы учеников</h1>
+              </div>
+              <div class="g-col-12 g-col-sm-7 g-col-lg-6">
+                <p class="reviews-heading-description description">
+                  Lorem Ipsum has been the industry's standard dummy text ever since the
+                  1500s, when an unknown printer took a galley of type and scrambled it to
+                  make a type specimen book.
+                </p>
+              </div>
+            </div>
+            <div class="reviews-carousel">
+              <div class="reviews-slide">
+                <div class="reviews-user d-flex align-items-center">
+                  <img class="reviews-user-avatar" src="<%=require('/src/assets/images/reviews-user-avatar.svg')%>" alt="avatar">
+                  <div class="reviews-user-info">
+                    <span class="reviews-user-name">Иван Иванов, Алматы</span>
+                    <span class="reviews-user-course">Курс “Разработка веб-сайтов с нуля”</span>
+                  </div>
+                </div>
+                <p class="reviews-text">
+                  There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised
+                  words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing
+                  hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true
+                  generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum
+                  which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                </p>
+              </div>
+              <div class="reviews-slide">
+                <div class="reviews-user d-flex align-items-center">
+                  <img class="reviews-user-avatar" src="<%=require('/src/assets/images/reviews-user-avatar.svg')%>" alt="avatar">
+                  <div class="reviews-user-info">
+                    <span class="reviews-user-name">Иван Иванов, Алматы</span>
+                    <span class="reviews-user-course">Курс “Разработка веб-сайтов с нуля”</span>
+                  </div>
+                </div>
+                <p class="reviews-text">
+                  There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised
+                  words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing
+                  hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true
+                  generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum
+                  which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                </p>
+              </div>
+              <div class="reviews-slide">
+                <div class="reviews-user d-flex align-items-center">
+                  <img class="reviews-user-avatar" src="<%=require('/src/assets/images/reviews-user-avatar.svg')%>" alt="avatar">
+                  <div class="reviews-user-info">
+                    <span class="reviews-user-name">Иван Иванов, Алматы</span>
+                    <span class="reviews-user-course">Курс “Разработка веб-сайтов с нуля”</span>
+                  </div>
+                </div>
+                <p class="reviews-text">
+                  There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised
+                  words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing
+                  hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true
+                  generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum
+                  which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-inside">
+            <div class="footer-main grid">
+              <div class="footer-info g-col-12 g-col-sm-4">
+                <img class="footer-info-logo" src="<%=require('/src/assets/images/logo.svg')%>" alt="wedoedu">
+                <div class="footer-info-contacts">
+                  <h2 class="footer-title">Контактный центр</h2>
+                  <ul class="footer-list">
+                    <li class="footer-list-item">г. Алматы, Сейфуллина 597А</li>
+                    <li class="footer-list-item">г. Нур-Султан, ул. Достык 13, ЖК "Нурсая 2", 2 этаж, 205 каб.</li>
+                  </ul>
+                </div>
+                <div class="footer-info-contacts">
+                  <h2 class="footer-title">График работы</h2>
+                  <ul class="footer-list">
+                    <li class="footer-list-item">Понедельник - Пятница.</li>
+                    <li class="footer-list-item">С 9:00 до 18:00 по времени г. Нур-Султан.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="footer-links g-col-12 g-col-sm-8 d-flex">
+                <div class="footer-links-group">
+                  <h2 class="footer-title">График работы</h2>
+                  <ul class="footer-list">
+                    <li class="footer-list-item">
+                      <a class="footer-list-link" href="#">Ментальный SMM</a>
+                    </li>
+                    <li class="footer-list-item">
+                      <a class="footer-list-link" href="#">Мобилография</a>
+                    </li>
+                    <li class="footer-list-item">
+                      <a class="footer-list-link" href="#">Управление проектами</a>
+                    </li>
+                    <li class="footer-list-item">
+                      <a class="footer-list-link" href="#">Менеджер по продажам</a>
+                    </li>
+                    <li class="footer-list-item">
+                      <a class="footer-list-link" href="#">Упаковка бизнесов</a>
+                    </li>
+                    <li class="footer-list-item">
+                      <a class="footer-list-link" href="#">Интернет-маркетинг</a>
+                    </li>
+                    <li class="footer-list-item">
+                      <a class="footer-list-link" href="#">Контент-менеджер</a>
+                    </li>
+                    <li class="footer-list-item">
+                      <a class="footer-list-link" href="#">Веб-дизайн</a>
+                    </li>
+                    <li class="footer-list-item">
+                      <a class="footer-list-link" href="#">Основы Программирования</a>
+                    </li>
+                    <li class="footer-list-item">
+                      <a class="footer-list-link" href="#">Шаги к комфортной учебе</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer-links-group">
+                  <h2 class="footer-title">wedo</h2>
+                  <ul class="footer-list">
+                    <li class="footer-list-item">
+                      <a class="footer-list-link" href="#">О платформе</a>
+                    </li>
+                    <li class="footer-list-item">
+                      <a class="footer-list-link" href="#">Для партнёров</a>
+                    </li>
+                    <li class="footer-list-item">
+                      <a class="footer-list-link" href="#">Вакансии</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <div class="footer-bottom-heading d-flex justify-content-between">
+                <h2 class="footer-title">WeDo Education . 2022</h2>
+                <div class="footer-bottom-agreements d-flex align-items-center">
+                  <a class="footer-bottom-link" href="#">Пользовательское соглашение</a>
+                  <a class="footer-bottom-link" href="#">Политика конфиденциальности</a>
+                </div>
+              </div>
+              <div class="footer-bottom-text grid">
+                <div class="g-col-12 g-col-sm-4">
+                  <p class="footer-text">
+                    Все курсы защищены авторским правом.
+                  </p>
+                  <p class="footer-text">
+                    Мы используем файлы cookie для
+                    работоспособности нашей системы и повышения
+                    удобства пользования сайтом. Если Вы пользуетесь
+                    нашей платформой, то автоматически разрешаете
+                    их использование.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  </body>
+</html>

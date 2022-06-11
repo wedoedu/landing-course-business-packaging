@@ -1,0 +1,27 @@
+// scss configs
+@import "variables";
+
+// third party libraries
+@import "~bootstrap/scss/bootstrap-reboot";
+@import "~bootstrap/scss/bootstrap-grid";
+@import "~accordion-js/dist/accordion.min.css";
+@import "~tiny-slider/dist/tiny-slider.css";
+
+// local styles
+@import "default";
+@import "components/background";
+@import "components/container";
+@import "sections/faq";
+@import "sections/footer";
+@import "sections/header";
+@import "sections/main";
+@import "sections/partners";
+@import "sections/program";
+@import "sections/request";
+@import "sections/resume";
+@import "sections/reviews";
+@import "sections/shop";
+@import "sections/skills";
+@import "sections/speakers";
+@import "sections/suitable";
+@import "sections/callToAction";

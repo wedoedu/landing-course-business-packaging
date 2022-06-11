@@ -1,0 +1,105 @@
+.background {
+  img {
+    position: absolute;
+    //border: 1px solid red;
+  }
+
+  &-blur {
+    width: 100%;
+    height: 100%;
+    max-height: 600px;
+    max-width: 600px;
+  }
+
+  &-large {
+    max-width: 1000px;
+    max-height: 1000px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &-oval {
+    max-width: 800px;
+    max-height: 1200px;
+  }
+
+  &-main {
+    width: 100%;
+    height: 100vh;
+    max-height: 810px;
+    background-image: url('../assets/images/bg-main.png');
+    background-position: top right;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &-inside {
+    position: relative;
+  }
+
+  &-001 {
+    top: 800px;
+    right: 200px;
+  }
+
+  &-002 {
+    top: 1100px;
+    left: 0;
+  }
+
+  &-003 {
+    top: 1500px;
+    left: 250px;
+  }
+
+  &-004 {
+    top: 2100px;
+    right: 0;
+  }
+
+  &-005 {
+    top: 2400px;
+  }
+
+  &-006 {
+    top: 3300px;
+  }
+
+  &-006 {
+    top: 3300px;
+  }
+
+  &-007 {
+    top: 4300px;
+  }
+
+  &-008 {
+    top: 3700px;
+    left: 0;
+  }
+
+  &-009 {
+    top: 4900px;
+    right: 0;
+  }
+
+  &-010 {
+    top: 5500px;
+  }
+
+  &-011 {
+    top: 6900px;
+    right: 300px;
+    transform: scale(1.5);
+  }
+
+  &-012 {
+    top: 8000px;
+  }
+
+  &-013 {
+    top: 9100px;
+    //transform: scale(1.5) translateX(-50%);
+  }
+}

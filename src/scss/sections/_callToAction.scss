@@ -1,0 +1,38 @@
+.call-to-action {
+  margin: 140px 0px 120px 0px;
+  &-inside {
+    display: flex;
+    position: relative;
+
+    &-block {
+      background: #D6EDCE;
+      border-radius: 32px;
+      padding: 100px 80px;
+      width: 80%;
+
+      h2 {
+        width: 70%;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 145.9%;
+
+        color: #0B213E;
+      }
+
+      button {
+        padding: 15px 36px;
+        background: rgba(28, 131, 229, 0.7);
+        border-radius: 8px;
+        color: #FFFFFF;
+        border: none;
+        margin-top: 30px;
+      }
+    }
+
+    &-image {
+      right: -70px;
+      bottom: -20px;
+      position: absolute;
+    }
+  }
+}

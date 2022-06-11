@@ -1,0 +1,128 @@
+.speakers {
+  margin-bottom: 230px;
+
+  $self: &;
+
+  &-title {
+    display: block;
+    width: 100%;
+    margin-bottom: 150px;
+    text-align: center;
+  }
+
+  &-teacher {
+    position: relative;
+    img {
+      width: 250px;
+      height: 250px;
+      object-fit: contain ;
+    }
+
+    &-text {
+      width: 50%;
+      text-align: center;
+
+      h3 {
+        margin: 35px 0px 25px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 32px;
+
+        text-transform: capitalize;
+
+        color: #000000;
+      }
+
+      img {
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        width: 600px;
+        height: 460px;
+      }
+    }
+  }
+
+  &-cards {
+    &-item {
+      &:nth-child(1) {
+        #{$self}-card-info {
+          background-color: #3892D7;
+        }
+      }
+
+      &:nth-child(2) {
+        #{$self}-card-info {
+          background-color: #47C58F;
+        }
+      }
+
+      &:nth-child(3) {
+        #{$self}-card-info {
+          background-color: #EB8384;
+        }
+      }
+
+      &:nth-child(4) {
+        #{$self}-card-info {
+          background-color: #F6C752;
+        }
+      }
+    }
+  }
+
+  &-card {
+    position: relative;
+    border: 1px solid #D7D7D7;
+    border-radius: 10px;
+
+    &-preview {
+      transform: translateY(-65px);
+    }
+
+    &-info {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      padding: 28px 25px;
+      background-image: none;
+      border-radius: 10px;
+    }
+
+    &-name {
+      margin-bottom: 15px;
+      color: #fff;
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    &-bio {
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    &-card {
+      margin-bottom: 60px;
+      border: 1px solid;
+      border-image: linear-gradient(45deg, #944DD6, #3892D7) 1;
+
+      &-border {
+        display: none;
+      }
+
+      &-info {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        border-radius: 0;
+      }
+    }
+  }
+}

@@ -8,6 +8,9 @@
     justify-content: space-between;
     padding: 50px;
     transform: scale(1);
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 10px, transparent 10px) 0% 0%/15px 15px no-repeat,            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 10px, transparent 10px) 100% 0%/15px 15px no-repeat,            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 10px, transparent 10px) 0% 100%/15px 15px no-repeat,            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 10px, transparent 10px) 100% 100%/15px 15px no-repeat,            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 30px) no-repeat,            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 30px) calc(100% - 10px) no-repeat,            linear-gradient(0deg, #e6effa 0%, #59a3eb 100%);
+    border-radius: 15px;
+    box-sizing: border-box;
 
     &-border {
       position: absolute;
@@ -61,10 +64,10 @@
 
   &-form {
     padding: 50px;
-    background-color: #fff;
-    border: 1px solid #000;
+    background: #FFFFFF;
+    border: 3px solid #E8E8E8;
     border-radius: 15px;
-
+    
     &-title {
       margin-bottom: 38px;
       padding: 0;

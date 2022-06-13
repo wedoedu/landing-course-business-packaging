@@ -10,11 +10,15 @@
     }
 
     &-title {
-      color: #000;
+      color: #0B213E;
       font-size: 40px;
       font-weight: 800;
       line-height: 57px;
       text-transform: uppercase;
+
+      span {
+        color: #1C83E5;
+      }
     }
 
     &-description {

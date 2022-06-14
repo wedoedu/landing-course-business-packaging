@@ -67,7 +67,7 @@
     background: #FFFFFF;
     border: 3px solid #E8E8E8;
     border-radius: 15px;
-    
+
     &-title {
       margin-bottom: 38px;
       padding: 0;
@@ -129,8 +129,6 @@
 
   @media (max-width: 768px) {
     &-info {
-      border: 5px solid;
-      border-image: linear-gradient(45deg, #3892D7, #944DD6) 1;
 
       &-border {
         display: none;

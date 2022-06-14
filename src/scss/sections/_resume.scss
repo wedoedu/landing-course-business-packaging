@@ -20,7 +20,7 @@
       width: 100%;
       height: 100%;
       object-fit: contain;
-      
+
     }
 
     &-head {
@@ -102,8 +102,6 @@
   @media (max-width: 768px) {
     &-example {
       padding: 30px 50px;
-      border: 5px solid;
-      border-image: linear-gradient(45deg, #944DD6, #3892D7, #E85037) 1;
 
       &-border {
         display: none;
